@@ -4,7 +4,7 @@ const data = [
       title: "Portfolio",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, debitis earum corrupti exercitationem modi quidem!",
-      image: "../../../public/projects-image/personal-portfolio.png",
+      image: "/public/projects-image/personal-portfolio.png",
     }
   ];
   

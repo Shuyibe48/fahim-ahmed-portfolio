@@ -4,13 +4,13 @@ const data = [
       title: "Event 360",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, debitis earum corrupti exercitationem modi quidem!",
-      image: "../../../public/projects-image/event-business.png",
+      image: "/public/projects-image/event-business.png",
     },
     {
       id: 2,
       title: "Toys Shop",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, debitis earum corrupti exercitationem modi quidem!",
-      image: "../../../public/projects-image/toys-business.png",
+      image: "/public/projects-image/toys-business.png",
     }
   ];
   

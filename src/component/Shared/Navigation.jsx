@@ -67,7 +67,7 @@ const Navigation = () => {
             animate={{ x: 0 }}
             transition={{ type: "spring", duration: 2 }}
             className="w-[25px] h-[25px]"
-            src="../../../public/logo.png"
+            src="/public/logo.png"
             alt="Logo"
           />
           <motion.h1

@@ -4,14 +4,14 @@ const data = [
     title: "GYM Landing Page",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, debitis earum corrupti exercitationem modi quidem!",
-    image: "../../../public/projects-image/gym-landing-page.png",
+    image: "/public/projects-image/gym-landing-page.png",
   },
   {
     id: 2,
     title: "Doctor Portal Landing Page",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, debitis earum corrupti exercitationem modi quidem!",
-    image: "../../../public/projects-image/doctor-portal-landing-page.png",
+    image: "/public/projects-image/doctor-portal-landing-page.png",
   }
 ];
 

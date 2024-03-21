@@ -13,7 +13,7 @@ const About = () => {
           <div className="col-span-12 md:col-span-6">
             <div>
               <div>
-                <img src="../../../public/about_1.png" alt="" />
+                <img src="/public/about_1.png" alt="" />
               </div>
 
               <div>
@@ -31,7 +31,7 @@ const About = () => {
 
             <div>
               <div>
-                <img src="../../../public/about_2.png" alt="fahim ahemd" />
+                <img src="../assets/about_1.png" alt="fahim ahemd" />
               </div>
 
               <div>
