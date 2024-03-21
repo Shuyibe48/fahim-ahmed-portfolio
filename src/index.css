@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #02050a;
+  /* background-color: greenyellow; */
+}
+
+.banner-bg {
+  background-image: url(../public/banner_bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.project-card::-webkit-scrollbar {
+  width: 5px;
+}
+.project-card::-webkit-scrollbar-track {
+  background: #09101a;
+}
+
+/* Handle */
+.project-card::-webkit-scrollbar-thumb {
+  background: #55e6a5;
+}
+
+/* Handle on hover */
+.project-card::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.gradient-bg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.782), black);
+  transform: translateY(200px);
+  transition: .2s;
+}
+
+.showcase-card:hover .gradient-bg{
+  transform: translateY(0px);
+}
+
+.showcase-card img{
+  transition: 2s;
+}
+.showcase-card:hover img{
+  transform: scale(1.03);
+}
+
+@layer base {
+  .p {
+    @apply text-[#A2A2A2] text-[10px] md:text-[12px] lg:text-[16px] leading-tight max-w-[60ch] mt-2 md:mt-3 lg:mt-6 mb-4 lg:mb-8;
+  }
+  .h {
+    @apply text-cyan-50 font-semibold text-[24px] md:text-3xl lg:text-5xl leading-tight max-w-[20ch];
+  }
+  .pp {
+    @apply text-[#A2A2A2] text-[6px] md:text-[8px] lg:text-[12px] leading-tight max-w-[60ch] mt-1 lg:mt-2;
+  }
+  .hh {
+    @apply text-cyan-50 font-semibold text-[16px] md:text-xl lg:text-2xl leading-4 max-w-[20ch];
+  }
+
+  .icon {
+    @apply bg-[#55E6A5] text-5xl p-2 rounded-md;
+  }
+  .contact-input {
+    @apply p-2 border w-full border-[#09101A] text-cyan-50 outline-none bg-transparent rounded-md;
+  }
+  .contact-input-div {
+    @apply col-span-12 md:col-span-6;
+  }
+}
