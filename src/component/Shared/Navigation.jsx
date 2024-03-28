@@ -54,7 +54,7 @@ const navLinks = [
 
 const Navigation = () => {
   return (
-    <div className="flex flex-col gap-y-4 h-screen fixed left-2 top-4">
+    <div className="flex flex-col gap-y-4 absolute lg:fixed left-0 lg:left-2 -top-2 lg:top-8 bg-[#09101A] p-4 rounded-2xl">
       <NavLink to="/">
         <motion.div
           initial={{ y: -100 }}
@@ -89,7 +89,7 @@ const Navigation = () => {
               className={({ isActive }) =>
                 isActive
                   ? "text-[#55e6a5] text-[10px] md:text-[12px] uppercase flex justify-s items-center gap-2"
-                : "text-[#A2A2A2] text-[10px] md:text-[12px] uppercase flex justify-s items-center gap-2"
+                  : "text-[#A2A2A2] text-[10px] md:text-[12px] uppercase flex justify-s items-center gap-2"
               }
             >
               <span className="text-[20px] rounded-md">{navLink.icon}</span>

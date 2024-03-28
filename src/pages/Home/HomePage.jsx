@@ -80,11 +80,13 @@ const Banner = () => {
                 }}
                 className="p"
               >
-                I'm a passionate UI/UX designer with a mission to create
-                delightful and intuitive digital experiences. With a strong
-                foundation in design principles and a keen eye for detail, I
-                specialize in translating complex ideas into user-friendly
-                interfaces that captivate and engage.
+                Hello there! I'm Fahim Ahmed, a skilled MERN stack web
+                developer. With over a year of hands-on experience in web
+                development, I'm not just hardworking but totally dedicated.
+                When you choose to collaborate with me, expect nothing less than
+                my absolute best to bring your web projects to life
+                effortlessly. Got questions? Feel free to shoot me a message
+                anytime!😊
               </motion.p>
               <div className="flex items-center gap-x-4 md:gap-x-5 lg:gap-x-6">
                 <motion.button

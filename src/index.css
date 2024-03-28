@@ -7,6 +7,7 @@ body {
   /* background-color: greenyellow; */
 }
 
+
 .banner-bg {
   background-image: url(../public/banner_bg2.png);
   background-repeat: no-repeat;
@@ -48,6 +49,11 @@ body {
 .showcase-card:hover img{
   transform: scale(1.03);
 }
+
+.about-bg{
+  background-image: url('../public/about_img_2.png');
+}
+
 
 @layer base {
   .p {
