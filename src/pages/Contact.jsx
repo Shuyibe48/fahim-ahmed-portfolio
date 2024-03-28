@@ -2,13 +2,14 @@ import { FaPhone } from "react-icons/fa";
 import { FaSearchLocation } from "react-icons/fa";
 import { FaEnvelopeSquare } from "react-icons/fa";
 import Container from "../utils/Container";
+import { Link } from "react-router-dom";
 
 const contacts = [
   {
     id: 1,
     icon: <FaPhone />,
     serviceName: "Phone",
-    description: "+8801828905230",
+    description: "Phone/What's app: +8801828905230",
   },
   {
     id: 2,
@@ -21,7 +22,8 @@ const contacts = [
     id: 3,
     icon: <FaEnvelopeSquare />,
     serviceName: "24/7",
-    description: "shuyibesiddiki@gmail.com",
+    description: "Email: shuyibesiddiki@gmail.com",
+    fiverr: "https://www.fiverr.com/hazera_begum",
   },
 ];
 
@@ -42,6 +44,8 @@ const Contact = () => {
                 </h3>
                 <p className="text-[#A2A2A2] text-[16px] leading-tight">
                   {contact.description}
+                  <br />
+                  <Link to={contact.fiverr}>Fiverr: {contact.fiverr}</Link>
                 </p>
               </div>
             </div>
